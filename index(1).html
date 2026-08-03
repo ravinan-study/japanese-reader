@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>日本語リーダー 104–119</title>
+<style>
+:root{--bg:#f4f6fa;--card:#fff;--text:#171b24;--muted:#667085;--line:#dfe4ec;--blue:#315efb}
+body.dark{--bg:#111318;--card:#1c2028;--text:#f4f5f7;--muted:#b2bac8;--line:#343a46;--blue:#7d9aff}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif}
+header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding:12px}
+body.dark header{background:rgba(28,32,40,.94)}
+.wrap{max-width:960px;margin:auto} h1{font-size:22px;margin:0 0 10px}
+.controls{display:flex;gap:8px;flex-wrap:wrap}
+button,select{font:inherit;padding:9px 12px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--text)}
+.primary{background:var(--blue);color:#fff;border-color:var(--blue)}
+.status{font-size:13px;color:var(--muted);margin-top:8px}
+main{max-width:960px;margin:auto;padding:18px 12px 80px}
+.lesson{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;margin-bottom:16px}
+.lesson.reading{outline:2px solid var(--blue)}
+.lesson-head{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.lesson h2{font-size:28px;margin:0}
+.lesson-text{font-size:21px;line-height:2.25;letter-spacing:.015em;margin-top:18px}
+.lesson-text p{margin:.35em 0 1em}
+strong{font-weight:800}
+ruby.vocab{cursor:pointer;border-radius:4px;padding:0 1px}
+ruby.vocab:hover{background:rgba(49,94,251,.10)}
+ruby.vocab rt{visibility:hidden;font-size:.52em;color:var(--blue);font-weight:700}
+ruby.vocab:hover rt,ruby.vocab:focus rt,ruby.vocab.show rt,body.show-all rt{visibility:visible}
+@media(max-width:600px){.lesson-text{font-size:19px;line-height:2.35}.lesson{padding:15px}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<h1>日本語リーダー 104–119</h1>
+<div class="controls">
+<button class="primary" onclick="readAll()">▶ อ่านทั้งหมด</button>
+<button onclick="speechSynthesis.pause()">⏸ พัก</button>
+<button onclick="speechSynthesis.resume()">▶ อ่านต่อ</button>
+<button onclick="stopSpeech()">■ หยุด</button>
+<select id="rate"><option value=".7">0.7×</option><option value=".85">0.85×</option><option value="1" selected>1×</option><option value="1.15">1.15×</option></select>
+<button onclick="document.body.classList.toggle('show-all')">あ Furigana ทั้งหมด</button>
+<button onclick="document.body.classList.toggle('dark')">🌙 กลางคืน</button>
+</div>
+<div class="status" id="status">คำตัวหนาตามต้นฉบับ: วางเมาส์หรือแตะเพื่อดู Furigana</div>
+</div></header>
+<main><section class="lesson" id="lesson-104">
+<div class="lesson-head"><h2>104</h2><button class="primary" onclick="readLesson(this)">🔊 อ่านบทนี้</button></div>
+<div class="lesson-text" data-plain="会社の状況を把握した上で、大雑把な計画ではなく、詳しい計画を立てました。発表が終わると、みんなが拍手をしてくれました。その成功が私のやる気に拍車をかけ、家族を扶養するためにもっと頑張ろうと思いました。"><p>会社の状況を<ruby class="vocab" tabindex="0"><strong>把握</strong><rt>はあく</rt></ruby>した上で、<ruby class="vocab" tabindex="0"><strong>大雑把</strong><rt>おおざっぱ</rt></ruby>な計画ではなく、詳しい計画を立てました。発表が終わると、みんなが<ruby class="vocab" tabindex="0"><strong>拍手</strong><rt>はくしゅ</rt></ruby>をしてくれました。その成功が私のやる気に<ruby class="vocab" tabindex="0"><strong>拍車をかけ</strong><rt>はくしゃをかけ</rt></ruby>、家族を<ruby class="vocab" tabindex="0"><strong>扶養</strong><rt>ふよう</rt></ruby>するためにもっと頑張ろうと思いました。</p></div>
+</section><section class="lesson" id="lesson-105">
+<div class="lesson-head"><h2>105</h2><button class="primary" onclick="readLesson(this)">🔊 อ่านบทนี้</button></div>
+<div class="lesson-text" data-plain="彼は海外市場を開拓するために忙しく働いていましたが、長時間会社に拘束されても、新しい企画を披露することを諦めませんでした。その後、友人の披露宴に出席し、久しぶりに楽しい時間を過ごしました。"><p>彼は海外市場を<ruby class="vocab" tabindex="0"><strong>開拓</strong><rt>かいたく</rt></ruby>するために忙しく働いていましたが、長時間会社に<ruby class="vocab" tabindex="0"><strong>拘束</strong><rt>こうそく</rt></ruby>されても、新しい企画を<ruby class="vocab" tabindex="0"><strong>披露</strong><rt>ひろう</rt></ruby>することを諦めませんでした。その後、友人の<ruby class="vocab" tabindex="0"><strong>披露宴</strong><rt>ひろうえん</rt></ruby>に出席し、久しぶりに楽しい時間を過ごしました。</p></div>
+</section><section class="lesson" id="lesson-106">
+<div class="lesson-head"><h2>106</h2><button class="primary" onclick="readLesson(this)">🔊 อ่านบทนี้</button></div>
+<div class="lesson-text" data-plain="ある日、町で子どもの誘拐事件が起こりました。学校は保護者に注意事項を一括でメール送信しました。配られた資料には、緊急連絡先が括弧の中に書かれていました。その事件をきっかけに、警察官を目指している高校生の健太は、「人々を守れる警察官になりたい」と決意し、難しい警察官採用試験に挑むことを決めました。毎日勉強を続け、その挑戦は彼を大きく成長させました。"><p>ある日、町で子どもの<ruby class="vocab" tabindex="0"><strong>誘拐</strong><rt>ゆうかい</rt></ruby>事件が起こりました。学校は保護者に注意事項を<ruby class="vocab" tabindex="0"><strong>一括</strong><rt>いっかつ</rt></ruby>でメール送信しました。配られた資料には、緊急連絡先が<ruby class="vocab" tabindex="0"><strong>括弧</strong><rt>かっこ</rt></ruby>の中に書かれていました。その事件をきっかけに、警察官を目指している高校生の健太は、「人々を守れる警察官になりたい」と決意し、難しい警察官採用試験に<ruby class="vocab" tabindex="0"><strong>挑む</strong><rt>いどむ</rt></ruby>ことを決めました。毎日勉強を続け、その<ruby class="vocab" tabindex="0"><strong>挑戦</strong><rt>ちょうせん</rt></ruby>は彼を大きく成長させました。</p></div>
+</section><section class="lesson" id="lesson-107">
+<div class="lesson-head"><h2>107</h2><button class="primary" onclick="readLesson(this)">🔊 อ่านบทนี้</button></div>
+<div class="lesson-text" data-plain="朝の会議では、部長が最初に挨拶をしました。その後、私はプレゼンテーションの資料に新しい写真を挿入しました。写真が入ったことで内容が分かりやすくなり、会議は順調に進みました。"><p>朝の会議では、部長が最初に<ruby class="vocab" tabindex="0"><strong>挨拶</strong><rt>あいさつ</rt></ruby>をしました。その後、私はプレゼンテーションの資料に新しい写真を<ruby class="vocab" tabindex="0"><strong>挿入</strong><rt>そうにゅう</rt></ruby>しました。写真が入ったことで内容が分かりやすくなり、会議は順調に進みました。</p></div>
+</section><section class="lesson" id="lesson-108">
+<div class="lesson-head"><h2>108</h2><button class="primary" onclick="readLesson(this)">🔊 อ่านบทนี้</button></div>
+<div class="lesson-text" data-plain="試験の日、私は緊張していたので、甘い物を控えることにした。試験の前、控え室で待っていると、先生が「落ち着いてくださいね」と話し掛けてくれた。そのおかげで少し安心した。教室へ通り掛かったとき、入口に新しく据え付けられた時計が目に入った。その時計は壁にしっかり据えられていて、とても見やすかった。私の気掛かりは、難しい問題が出ることだった。しかし、試験が始まると、見掛けほど難しくはなかった。試験が終わった後、先生は「この資格を取れば、来年は授業料の控除を受けられるかもしれません」と説明してくれた。それを聞いて、私はこれからも毎日勉強を心掛けようと思った。"><p>試験の日、私は緊張していたので、甘い物を<ruby class="vocab" tabindex="0"><strong>控える</strong><rt>ひかえる</rt></ruby>ことにした。試験の前、<ruby class="vocab" tabindex="0"><strong>控え室</strong><rt>ひかえしつ</rt></ruby>で待っていると、先生が「落ち着いてくださいね」と<ruby class="vocab" tabindex="0"><strong>話し掛けて</strong><rt>はなしかけて</rt></ruby>くれた。そのおかげで少し安心した。教室へ<ruby class="vocab" tabindex="0"><strong>通り掛かった</strong><rt>とおりかかった</rt></ruby>とき、入口に新しく<ruby class="vocab" tabindex="0"><strong>据え付けられた</strong><rt>すえつけられた</rt></ruby>時計が目に入った。その時計は壁にしっかり<ruby class="vocab" tabindex="0"><strong>据えられて</strong><rt>すえられて</rt></ruby>いて、とても見やすかった。私の<ruby class="vocab" tabindex="0"><strong>気掛かり</strong><rt>きがかり</rt></ruby>は、難しい問題が出ることだった。しかし、試験が始まると、<ruby class="vocab" tabindex="0"><strong>見掛け</strong><rt>みかけ</rt></ruby>ほど難しくはなかった。試験が終わった後、先生は「この資格を取れば、来年は授業料の<ruby class="vocab" tabindex="0"><strong>控除</strong><rt>こうじょ</rt></ruby>を受けられるかもしれません」と説明してくれた。それを聞いて、私はこれからも毎日勉強を<ruby class="vocab" tabindex="0"><strong>心掛けよう</strong><rt>こころがけよう</rt></ruby>と思った。</p></div>
+</section><section class="lesson" id="lesson-109">
+<div class="lesson-head"><h2>109</h2><button class="primary" onclick="readLesson(this)">🔊 อ่านบทนี้</button></div>
+<div class="lesson-text" data-plain="町の近くにある工場は、以前、有害なガスを排出していたため、川の排水も問題になっていた。そこで会社は環境を守るために、すぐに必要な措置を取った。新しい設備を導入し、有害物質を排除できるようにしたので、空気も川も少しずつきれいになった。
+工事が終わると、古い機械は工場から引き揚げられ、代わりに最新の機械が運び込まれた。
+完成を祝う日には、社員たちは天ぷらを揚げながらパーティーを開いた。
+社長は改善の成果に満足し、意気揚々とみんなの前で「これからも環境を大切にしていきましょう」と話した。"><p>町の近くにある工場は、以前、有害なガスを<ruby class="vocab" tabindex="0"><strong>排出</strong><rt>はいしゅつ</rt></ruby>していたため、川の<ruby class="vocab" tabindex="0"><strong>排水</strong><rt>はいすい</rt></ruby>も問題になっていた。そこで会社は環境を守るために、すぐに必要な<ruby class="vocab" tabindex="0"><strong>措置</strong><rt>そち</rt></ruby>を取った。新しい設備を導入し、有害物質を<ruby class="vocab" tabindex="0"><strong>排除</strong><rt>はいじょ</rt></ruby>できるようにしたので、空気も川も少しずつきれいになった。</p><p>工事が終わると、古い機械は工場から<ruby class="vocab" tabindex="0"><strong>引き揚げられ</strong><rt>ひきあげられ</rt></ruby>、代わりに最新の機械が運び込まれた。</p><p>完成を祝う日には、社員たちは天ぷらを<ruby class="vocab" tabindex="0"><strong>揚げ</strong><rt>あげ</rt></ruby>ながらパーティーを開いた。</p><p>社長は改善の成果に満足し、<ruby class="vocab" tabindex="0"><strong>意気揚々</strong><rt>いきようよう</rt></ruby>とみんなの前で「これからも環境を大切にしていきましょう」と話した。</p></div>
+</section><section class="lesson" id="lesson-110">
+<div class="lesson-head"><h2>110</h2><button class="primary" onclick="readLesson(this)">🔊 อ่านบทนี้</button></div>
+<div class="lesson-text" data-plain="家族旅行の日、私たちは朝早く空港へ行き、飛行機に搭乗した。その飛行機には最新の安全システムが搭載されていて、乗客は安心して座席に着いた。私たち家族は旅行のために服を揃え、みんなお揃いの帽子もかぶっていた。その姿はとても揃いがよく、周りの人から「すてきな家族ですね」と言われた。
+しかし、飛行機が離陸してしばらくすると、強い風で機体が大きく揺れ始めた。突然の揺れは乗客の心を揺さぶり、小さな子どもは泣き出してしまった。
+「大丈夫です」という機長のアナウンスを聞いても、不安はすぐには揺らがなかったが、客室乗務員が落ち着いて対応してくれたおかげで、みんなの動揺は少しずつ収まった。
+無事に目的地へ到着すると、家族全員が笑顔になり、「また一緒に旅行しよう」と約束した。"><p>家族旅行の日、私たちは朝早く空港へ行き、飛行機に<ruby class="vocab" tabindex="0"><strong>搭乗</strong><rt>とうじょう</rt></ruby>した。その飛行機には最新の安全システムが<ruby class="vocab" tabindex="0"><strong>搭載</strong><rt>とうさい</rt></ruby>されていて、乗客は安心して座席に着いた。私たち家族は旅行のために服を<ruby class="vocab" tabindex="0"><strong>揃え</strong><rt>そろえ</rt></ruby>、みんな<ruby class="vocab" tabindex="0"><strong>お揃い</strong><rt>おそろい</rt></ruby>の帽子もかぶっていた。その姿はとても<ruby class="vocab" tabindex="0"><strong>揃い</strong><rt>そろい</rt></ruby>がよく、周りの人から「すてきな家族ですね」と言われた。</p><p>しかし、飛行機が離陸してしばらくすると、強い風で機体が大きく<ruby class="vocab" tabindex="0"><strong>揺れ</strong><rt>ゆれ</rt></ruby>始めた。突然の揺れは乗客の心を<ruby class="vocab" tabindex="0"><strong>揺さぶり</strong><rt>ゆさぶり</rt></ruby>、小さな子どもは泣き出してしまった。</p><p>「大丈夫です」という機長のアナウンスを聞いても、不安はすぐには<ruby class="vocab" tabindex="0"><strong>揺らが</strong><rt>ゆらが</rt></ruby>なかったが、客室乗務員が落ち着いて対応してくれたおかげで、みんなの<ruby class="vocab" tabindex="0"><strong>動揺</strong><rt>どうよう</rt></ruby>は少しずつ収まった。</p><p>無事に目的地へ到着すると、家族全員が笑顔になり、「また一緒に旅行しよう」と約束した。</p></div>
+</section><section class="lesson" id="lesson-111">
+<div class="lesson-head"><h2>111</h2><button class="primary" onclick="readLesson(this)">🔊 อ่านบทนี้</button></div>
+<div class="lesson-text" data-plain="地震が起こると、消防隊長が現場を指揮しました。隊員たちはそれぞれの力を発揮し、必要な物資を避難所まで運搬しました。けがをした人はすぐに病院へ搬送されました。避難所では、子どもたちが花を摘んで飾っていました。その後、隊長は活動を振り返り、「連絡が遅れたことが問題でした」と指摘しました。"><p>地震が起こると、消防隊長が現場を<ruby class="vocab" tabindex="0"><strong>指揮</strong><rt>しき</rt></ruby>しました。隊員たちはそれぞれの力を<ruby class="vocab" tabindex="0"><strong>発揮</strong><rt>はっき</rt></ruby>し、必要な物資を避難所まで<ruby class="vocab" tabindex="0"><strong>運搬</strong><rt>うんぱん</rt></ruby>しました。けがをした人はすぐに病院へ<ruby class="vocab" tabindex="0"><strong>搬送</strong><rt>はんそう</rt></ruby>されました。避難所では、子どもたちが花を<ruby class="vocab" tabindex="0"><strong>摘んで</strong><rt>つんで</rt></ruby>飾っていました。その後、隊長は活動を振り返り、「連絡が遅れたことが問題でした」と<ruby class="vocab" tabindex="0"><strong>指摘</strong><rt>してき</rt></ruby>しました。</p></div>
+</section><section class="lesson" id="lesson-112">
+<div class="lesson-head"><h2>112</h2><button class="primary" onclick="readLesson(this)">🔊 อ่านบทนี้</button></div>
+<div class="lesson-text" data-plain="田中さんは庭に花の種を撒きました。すると、近所の猫がやって来たので、優しく頭を撫でました。そのとき、友人から「一緒に旅行に行こう」と誘われましたが、仕事の予定が入ったため、約束を撤回することになりました。"><p>田中さんは庭に花の種を<ruby class="vocab" tabindex="0"><strong>撒き</strong><rt>まき</rt></ruby>ました。すると、近所の猫がやって来たので、優しく頭を<ruby class="vocab" tabindex="0"><strong>撫で</strong><rt>なで</rt></ruby>ました。そのとき、友人から「一緒に旅行に行こう」と誘われましたが、仕事の予定が入ったため、約束を<ruby class="vocab" tabindex="0"><strong>撤回</strong><rt>てっかい</rt></ruby>することになりました。</p></div>
+</section><section class="lesson" id="lesson-113">
+<div class="lesson-head"><h2>113</h2><button class="primary" onclick="readLesson(this)">🔊 อ่านบทนี้</button></div>
+<div class="lesson-text" data-plain="休日、私は自炊をすることにしました。まず、炊飯器でご飯を炊き、そのあと炊事をしました。料理をしているとき、鍋を強く擦ってしまったので、手が少し擦れました。その後、古い布でテーブルを擦ると、布が擦り切れてしまいました。兄と少し擦れ違いがありましたが、すぐに仲直りしました。テレビでは、いじめの撲滅を目指す活動や、相撲大会のニュースが流れていました。先生は、「人との摩擦を減らすためには、お互いを理解することが大切です」と話していました。"><p>休日、私は<ruby class="vocab" tabindex="0"><strong>自炊</strong><rt>じすい</rt></ruby>をすることにしました。まず、<ruby class="vocab" tabindex="0"><strong>炊飯器</strong><rt>すいはんき</rt></ruby>でご飯を<ruby class="vocab" tabindex="0"><strong>炊き</strong><rt>たき</rt></ruby>、そのあと<ruby class="vocab" tabindex="0"><strong>炊事</strong><rt>すいじ</rt></ruby>をしました。料理をしているとき、鍋を強く<ruby class="vocab" tabindex="0"><strong>擦って</strong><rt>こすって</rt></ruby>しまったので、手が少し<ruby class="vocab" tabindex="0"><strong>擦れ</strong><rt>すれ</rt></ruby>ました。その後、古い布でテーブルを<ruby class="vocab" tabindex="0"><strong>擦る</strong><rt>こする</rt></ruby>と、布が<ruby class="vocab" tabindex="0"><strong>擦り切れて</strong><rt>すりきれて</rt></ruby>しまいました。兄と少し<ruby class="vocab" tabindex="0"><strong>擦れ違い</strong><rt>すれちがい</rt></ruby>がありましたが、すぐに仲直りしました。テレビでは、いじめの<ruby class="vocab" tabindex="0"><strong>撲滅</strong><rt>ぼくめつ</rt></ruby>を目指す活動や、<ruby class="vocab" tabindex="0"><strong>相撲</strong><rt>すもう</rt></ruby>大会のニュースが流れていました。先生は、「人との<ruby class="vocab" tabindex="0"><strong>摩擦</strong><rt>まさつ</rt></ruby>を減らすためには、お互いを理解することが大切です」と話していました。</p></div>
+</section><section class="lesson" id="lesson-114">
+<div class="lesson-head"><h2>114</h2><button class="primary" onclick="readLesson(this)">🔊 อ่านบทนี้</button></div>
+<div class="lesson-text" data-plain="新しい仕事はとても煩雑で、毎日の手続きが煩わしいと感じていました。最初は上司を恨んでいましたが、仕事を続けるうちに、「これは自分を成長させるための経験だ」と悟りました。それからは恨みを捨て、最後までやり抜く覚悟を決めました。その結果、以前より自信を持てるようになりました。"><p>新しい仕事はとても<ruby class="vocab" tabindex="0"><strong>煩雑</strong><rt>はんざつ</rt></ruby>で、毎日の手続きが<ruby class="vocab" tabindex="0"><strong>煩わしい</strong><rt>わずらわしい</rt></ruby>と感じていました。最初は上司を<ruby class="vocab" tabindex="0"><strong>恨んで</strong><rt>うらんで</rt></ruby>いましたが、仕事を続けるうちに、「これは自分を成長させるための経験だ」と<ruby class="vocab" tabindex="0"><strong>悟り</strong><rt>さとり</rt></ruby>ました。それからは<ruby class="vocab" tabindex="0"><strong>恨み</strong><rt>うらみ</rt></ruby>を捨て、最後までやり抜く<ruby class="vocab" tabindex="0"><strong>覚悟</strong><rt>かくご</rt></ruby>を決めました。その結果、以前より自信を持てるようになりました。</p></div>
+</section><section class="lesson" id="lesson-115">
+<div class="lesson-head"><h2>115</h2><button class="primary" onclick="readLesson(this)">🔊 อ่านบทนี้</button></div>
+<div class="lesson-text" data-plain="サッカーの決勝戦で、私たちのチームは最後の1点差で負けました。本当に惜しい試合でしたが、誰も仲間を惜しみませんでした。試合後、監督は「失敗してもうぬ惚れず、努力を続けることが大切だ」と話しました。一方、相手チームは勝利にうぬ惚れていて、インタビューでは少し惚けたような受け答えをしていました。その後、大きな地震のニュースが流れ、多くの人が悲惨な状況に置かれていることを知りました。私はその映像を見て、とても惨めな気持ちになりました。"><p>サッカーの決勝戦で、私たちのチームは最後の1点差で負けました。本当に<ruby class="vocab" tabindex="0"><strong>惜しい</strong><rt>おしい</rt></ruby>試合でしたが、誰も仲間を<ruby class="vocab" tabindex="0"><strong>惜しみ</strong><rt>おしみ</rt></ruby>ませんでした。試合後、監督は「失敗しても<ruby class="vocab" tabindex="0"><strong>うぬ惚れ</strong><rt>うぬぼれ</rt></ruby>ず、努力を続けることが大切だ」と話しました。一方、相手チームは勝利に<ruby class="vocab" tabindex="0"><strong>うぬ惚れて</strong><rt>うぬぼれて</rt></ruby>いて、インタビューでは少し<ruby class="vocab" tabindex="0"><strong>惚けた</strong><rt>ぼけた</rt></ruby>ような受け答えをしていました。その後、大きな地震のニュースが流れ、多くの人が<ruby class="vocab" tabindex="0"><strong>悲惨</strong><rt>ひさん</rt></ruby>な状況に置かれていることを知りました。私はその映像を見て、とても<ruby class="vocab" tabindex="0"><strong>惨め</strong><rt>みじめ</rt></ruby>な気持ちになりました。</p></div>
+</section><section class="lesson" id="lesson-116">
+<div class="lesson-head"><h2>116</h2><button class="primary" onclick="readLesson(this)">🔊 อ่านบทนี้</button></div>
+<div class="lesson-text" data-plain="高校の卒業式はとても愉快な雰囲気でした。しかし、一人の生徒が先生に失礼な態度を取ったため、自宅謹慎になりました。彼はその期間中、言動を慎み、自分の行動を慎重に見直しました。そして、自分には反省が足りなかったと慎みの心を学びました。一方、その出来事に保護者は憤慨していました。卒業の日、彼は先生に謝罪し、卒業証書を受け取ったときは感慨無量でした。"><p>高校の卒業式はとても<ruby class="vocab" tabindex="0"><strong>愉快</strong><rt>ゆかい</rt></ruby>な雰囲気でした。しかし、一人の生徒が先生に失礼な態度を取ったため、自宅<ruby class="vocab" tabindex="0"><strong>謹慎</strong><rt>きんしん</rt></ruby>になりました。彼はその期間中、言動を<ruby class="vocab" tabindex="0"><strong>慎み</strong><rt>つつしみ</rt></ruby>、自分の行動を<ruby class="vocab" tabindex="0"><strong>慎重</strong><rt>しんちょう</rt></ruby>に見直しました。そして、自分には反省が足りなかったと<ruby class="vocab" tabindex="0"><strong>慎み</strong><rt>つつしみ</rt></ruby>の心を学びました。一方、その出来事に保護者は<ruby class="vocab" tabindex="0"><strong>憤慨</strong><rt>ふんがい</rt></ruby>していました。卒業の日、彼は先生に謝罪し、卒業証書を受け取ったときは<ruby class="vocab" tabindex="0"><strong>感慨無量</strong><rt>かんがいむりょう</rt></ruby>でした。</p></div>
+</section><section class="lesson" id="lesson-117-118-119">
+<div class="lesson-head"><h2>117–118–119</h2><button class="primary" onclick="readLesson(this)">🔊 อ่านบทนี้</button></div>
+<div class="lesson-text" data-plain="子どものころ、私は祖父の家によく遊びに行っていました。家の周りには古い垣根があり、大きな木の枝が垂れていました。近所の犬はとても人懐こく、初めて会った私にもすぐ懐き、疲れて座ると私の懐にもぐり込んできました。そのころの思い出は、今でも懐かしい気持ちになります。
+祖父は大工で、古い家を修理したり、新しい家具を作ったりしていました。その巧みな技術で作られた家具はとても精巧で、細かい細工も巧妙でした。私は毎日その仕事を見ながら、「いつか祖父のような職人になりたい」と憧れを抱き、その姿に憧れていました。
+社会人になった私は建設会社に就職しました。しかし、毎日の残業で慢性的な疲れを感じても我慢して働いていました。ある日、現場を任されていた上司が怠慢な管理をしていたため事故が起こりそうになりました。その様子を見た私は強い憤りを覚え、思わず憤ってしまいました。社長もその報告を聞いて憤慨し、「このような事故を招く管理は会社として遺憾だ」と厳しく注意しました。
+その後、私は祖父から学んだことを思い出し、仕事に真剣に取り組みました。柱が垂直になっているか何度も確認し、細かい部分まで丁寧に仕上げました。作業が終わるころには、手は垢だらけになり、工具を買ったため懐具合も苦しくなりました。それでも完成した建物は会社の自慢となり、多くの人から高く評価されました。その瞬間、私は子どものころからの夢をかなえることができたと心から感じました。"><p>子どものころ、私は祖父の家によく遊びに行っていました。家の周りには古い<ruby class="vocab" tabindex="0"><strong>垣根</strong><rt>かきね</rt></ruby>があり、大きな木の枝が<ruby class="vocab" tabindex="0"><strong>垂れて</strong><rt>たれて</rt></ruby>いました。近所の犬はとても<ruby class="vocab" tabindex="0"><strong>人懐こく</strong><rt>ひとなつこく</rt></ruby>、初めて会った私にもすぐ<ruby class="vocab" tabindex="0"><strong>懐き</strong><rt>なつき</rt></ruby>、疲れて座ると私の<ruby class="vocab" tabindex="0"><strong>懐</strong><rt>ふところ</rt></ruby>にもぐり込んできました。そのころの思い出は、今でも<ruby class="vocab" tabindex="0"><strong>懐かしい</strong><rt>なつかしい</rt></ruby>気持ちになります。</p><p>祖父は大工で、古い家を修理したり、新しい家具を作ったりしていました。その<ruby class="vocab" tabindex="0"><strong>巧み</strong><rt>たくみ</rt></ruby>な技術で作られた家具はとても<ruby class="vocab" tabindex="0"><strong>精巧</strong><rt>せいこう</rt></ruby>で、細かい細工も<ruby class="vocab" tabindex="0"><strong>巧妙</strong><rt>こうみょう</rt></ruby>でした。私は毎日その仕事を見ながら、「いつか祖父のような職人になりたい」と<ruby class="vocab" tabindex="0"><strong>憧れ</strong><rt>あこがれ</rt></ruby>を抱き、その姿に<ruby class="vocab" tabindex="0"><strong>憧れて</strong><rt>あこがれて</rt></ruby>いました。</p><p>社会人になった私は建設会社に就職しました。しかし、毎日の残業で<ruby class="vocab" tabindex="0"><strong>慢性</strong><rt>まんせい</rt></ruby>的な疲れを感じても<ruby class="vocab" tabindex="0"><strong>我慢</strong><rt>がまん</rt></ruby>して働いていました。ある日、現場を任されていた上司が<ruby class="vocab" tabindex="0"><strong>怠慢</strong><rt>たいまん</rt></ruby>な管理をしていたため事故が起こりそうになりました。その様子を見た私は強い<ruby class="vocab" tabindex="0"><strong>憤り</strong><rt>いきどおり</rt></ruby>を覚え、思わず<ruby class="vocab" tabindex="0"><strong>憤って</strong><rt>いきどおって</rt></ruby>しまいました。社長もその報告を聞いて<ruby class="vocab" tabindex="0"><strong>憤慨</strong><rt>ふんがい</rt></ruby>し、「このような事故を招く管理は会社として<ruby class="vocab" tabindex="0"><strong>遺憾</strong><rt>いかん</rt></ruby>だ」と厳しく注意しました。</p><p>その後、私は祖父から学んだことを思い出し、仕事に真剣に取り組みました。柱が<ruby class="vocab" tabindex="0"><strong>垂直</strong><rt>すいちょく</rt></ruby>になっているか何度も確認し、細かい部分まで丁寧に仕上げました。作業が終わるころには、手は<ruby class="vocab" tabindex="0"><strong>垢</strong><rt>あか</rt></ruby>だらけになり、工具を買ったため<ruby class="vocab" tabindex="0"><strong>懐具合</strong><rt>ふところぐあい</rt></ruby>も苦しくなりました。それでも完成した建物は会社の<ruby class="vocab" tabindex="0"><strong>自慢</strong><rt>じまん</rt></ruby>となり、多くの人から高く評価されました。その瞬間、私は子どものころからの夢をかなえることができたと心から感じました。</p></div>
+</section></main>
+<script>
+let current=null;
+function makeSpeech(text){const u=new SpeechSynthesisUtterance(text);u.lang='ja-JP';u.rate=Number(document.getElementById('rate').value);return u;}
+function clearReading(){document.querySelectorAll('.lesson').forEach(x=>x.classList.remove('reading'));}
+function stopSpeech(){speechSynthesis.cancel();clearReading();document.getElementById('status').textContent='หยุดแล้ว';}
+function readLesson(btn){stopSpeech();const sec=btn.closest('.lesson');sec.classList.add('reading');current=makeSpeech(sec.querySelector('.lesson-text').dataset.plain);current.onstart=()=>document.getElementById('status').textContent='กำลังอ่านบท '+sec.querySelector('h2').textContent;current.onend=()=>{clearReading();document.getElementById('status').textContent='อ่านจบแล้ว';};speechSynthesis.speak(current);}
+function readAll(){stopSpeech();const text=[...document.querySelectorAll('.lesson-text')].map(x=>x.dataset.plain).join('。');current=makeSpeech(text);current.onstart=()=>document.getElementById('status').textContent='กำลังอ่านทั้งหมด';current.onend=()=>document.getElementById('status').textContent='อ่านจบแล้ว';speechSynthesis.speak(current);}
+document.addEventListener('click',e=>{const r=e.target.closest('ruby.vocab');if(r)r.classList.toggle('show');});
+window.addEventListener('beforeunload',()=>speechSynthesis.cancel());
+</script>
+</body></html>
