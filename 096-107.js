@@ -238,7 +238,7 @@ window.JP_READER_PACKS.push([
             "text": "着眼",
             "bold": true,
             "reading": "ちゃくがん",
-            "meaning": "การมองเห็นจุดสำคัญ"
+            "meaning": "การมองเห็นหรือให้ความสนใจกับจุดสำคัญ"
           },
           {
             "text": "すると絵が上達します」と教えてくれました。後日、視力検査のため",
@@ -284,8 +284,8 @@ window.JP_READER_PACKS.push([
           {
             "text": "監督",
             "bold": true,
-            "reading": "",
-            "meaning": ""
+            "reading": "かんとく",
+            "meaning": "ผู้ฝึกสอนหรือผู้กำกับ"
           },
           {
             "text": "は、提出期限が過ぎた部員にレポートの",
@@ -458,8 +458,8 @@ window.JP_READER_PACKS.push([
           {
             "text": "心が躍り",
             "bold": true,
-            "reading": "",
-            "meaning": ""
+            "reading": "こころがおどり",
+            "meaning": "รู้สึกตื่นเต้นหรือหัวใจพองโต"
           },
           {
             "text": "、全力でボールを",
@@ -479,7 +479,7 @@ window.JP_READER_PACKS.push([
             "text": "蹴飛ばした",
             "bold": true,
             "reading": "けとばした",
-            "meaning": "เตะกระเด็น"
+            "meaning": "เตะอย่างแรงหรือเตะกระเด็น"
           },
           {
             "text": "ため、試合はさらに激しくなりました。それでも私たちのチームは最後まであきらめずに戦い、優勝することができました。その活躍によって、私は",
@@ -489,7 +489,7 @@ window.JP_READER_PACKS.push([
             "text": "一躍",
             "bold": true,
             "reading": "いちやく",
-            "meaning": "ในทันทีหรือก้าวกระโดด"
+            "meaning": "ก้าวขึ้นมาอย่างรวดเร็วหรือในทันที"
           },
           {
             "text": "学校の人気者になりました。",
@@ -517,8 +517,8 @@ window.JP_READER_PACKS.push([
           {
             "text": "飛躍的な",
             "bold": true,
-            "reading": "",
-            "meaning": ""
+            "reading": "ひやくてきな",
+            "meaning": "ที่ก้าวหน้าอย่างก้าวกระโดด"
           },
           {
             "text": "進歩を遂げるでしょう」と喜びました。私は将来について考え、サッカーを続けるか勉強に専念するかという",
@@ -527,8 +527,8 @@ window.JP_READER_PACKS.push([
           {
             "text": "選択",
             "bold": true,
-            "reading": "",
-            "meaning": ""
+            "reading": "せんたく",
+            "meaning": "การเลือก"
           },
           {
             "text": "を迫られました。先生は「人生には多くの",
@@ -537,8 +537,8 @@ window.JP_READER_PACKS.push([
           {
             "text": "選択肢",
             "bold": true,
-            "reading": "",
-            "meaning": ""
+            "reading": "せんたくし",
+            "meaning": "ตัวเลือก"
           },
           {
             "text": "があります。焦らず自分で決めなさい」と励ましてくれました。その言葉を聞き、私はこれからも努力を続け、大きく",
@@ -605,8 +605,8 @@ window.JP_READER_PACKS.push([
           {
             "text": "拍車をかけ",
             "bold": true,
-            "reading": "",
-            "meaning": ""
+            "reading": "はくしゃをかけ",
+            "meaning": "เร่งหรือกระตุ้นให้มากขึ้น"
           },
           {
             "text": "、家族を",
@@ -699,8 +699,8 @@ window.JP_READER_PACKS.push([
           {
             "text": "誘拐",
             "bold": true,
-            "reading": "",
-            "meaning": ""
+            "reading": "ゆうかい",
+            "meaning": "การลักพาตัว"
           },
           {
             "text": "事件が起こりました。学校は保護者に注意事項を",
